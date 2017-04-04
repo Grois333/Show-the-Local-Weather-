@@ -1,0 +1,50 @@
+$clr-header: #2980b9;
+
+
+$container-background: rgba(66,66,66,0.4);
+
+
+
+h2{
+  margin-left: 7px;
+}
+
+
+#header {
+  background: $clr-header;
+  color: white;
+  padding: 0 16px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  box-shadow: 0px 2px 5px #555;
+  .left, .navbar,  {
+    display: inline-block;
+    //border: 2px solid green;
+  }
+  
+  .navbar {
+    width: 60%;
+  }
+  .left {
+    float: left;
+  }
+  
+}
+#container {
+  background: $container-background;
+  display: block;
+  width: 40%;
+  margin: 48px auto;
+  min-height: 300px;
+  padding: 24px;
+  border-radius: 4px;
+  
+  .center-text {
+    text-align: center;
+  }
+}
+
+ .btn-default{
+  opacity: 0.7;
+}
